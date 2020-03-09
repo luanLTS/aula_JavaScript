@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <title>Minha página</title>
+    <meta charset="utf-8">
+    <script type="text/javascript" src="main.js"></script>
+</head>
+
+<body onload="load()">
+    <button type="button" onclick="botao()">Clique aqui</button>
+
+    <p id="agradecimento" onclick="redirecionamento()"></p></br>
+
+    <p id="mouseMove" onmouseover="trocarTexto(this)" onmouseout="voltar(this)">Passe o mouse aqui</p>
+    <!-- this ele passa o elemnto como parametro, nao precisa mais usar o getElemtById -->
+    <p id="mouseMove2" onmouseover="trocarTexto(this)" onmouseout="voltar(this)">Passe o mouse aqui</p>
+    <!-- this ele passa o elemnto como parametro, nao precisa mais usar o getElemtById -->
+    <p id="mouseMove2" onmouseover="trocarTexto(this)" onmouseout="voltar(this)">Passe o mouse aqui</p>
+    <!-- this ele passa o elemnto como parametro, nao precisa mais usar o getElemtById -->
+
+    <select onchange="change(this)">
+        <option value="1">Valor 1</option>
+        <option value="2">Valor 2</option>
+        <option value="3">Valor 3</option>
+    </select>
+</body>
+
+</html>

@@ -1,0 +1,22 @@
+console.log(frase.replace("Japão", "Brasil"));  -> Troca uma palavra ou frase 1º parametro [ como esta na var ]  2º parametro [ como ira ficar apos a troca ]
+
+console.log(frase.toUpperCase());   -> DEIXA TODOS OS CARACTERES EM CAIXA ALTA
+
+console.log(nome.toLowerCase());    -> deixa todos os caracteres em caixa baixa
+
+------ ARRAYS ------
+
+var lista = ["Maçã", "Pêra", "Laranja"];    -> Cria uma Lista / Array
+
+lista.push("Uva");  -> Adiciona na ultima posicao da lista
+
+lista.pop();    -> Remove o ultimo elemento da lista / array
+
+console.log(lista.length);  -> Retorna o tamanho da lista / array
+
+console.log(lista.reverse());   -> Imprime a lista começando pelo ultimo elemento ate o primeiro
+
+console.log(lista.toString());  -> Transforma a lista em uma String, portanto se antes o primeiro elemento ( lista[0] ) retornaria Maçã, agora ele retornara somente o primeiro caracter ( M )
+
+console.log(lista.join(" | ")); -> Imprime com a separacao que voce quiser, padrao ( , )
+
